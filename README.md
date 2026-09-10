@@ -1,16 +1,53 @@
-## Hi there 👋
+![Banner](https://raw.githubusercontent.com/Theo-Nunes/Theo-Nunes/main/banner.svg)
 
-<!--
-**Theo-Nunes/Theo-Nunes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║   ███████╗███╗   ██╗ ██████╗ ███████╗███╗   ██╗██╗  ██╗       ║
+║   ██╔════╝████╗  ██║██╔════╝ ██╔════╝████╗  ██║██║  ██║       ║
+║   █████╗  ██╔██╗ ██║██║  ███╗█████╗  ██╔██╗ ██║███████║       ║
+║   ██╔══╝  ██║╚██╗██║██║   ██║██╔══╝  ██║╚██╗██║██╔══██║       ║
+║   ███████╗██║ ╚████║╚██████╔╝███████╗██║ ╚████║██║  ██║       ║
+║   ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝       ║
+║                                                                ║
+║        Engenharia de Produção × Programação                   ║
+║              🐍 Python Developer | 🌐 Web Dev                 ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
 
-Here are some ideas to get you started:
+    ⚙️  </>  📊  <>  🔧  <>  💻  <>  📈  <>  🐍  <>  🌐
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Olá! Sou Theo Nunes 👋
+
+Bem-vindo ao meu perfil GitHub!
+
+Sou estudante de **Engenharia de Produção** apaixonado por programação. Tenho afinidade especial com **Python** e adoro trabalhar em projetos que envolvem **criação de sites**.
+
+## 🎯 Sobre Mim
+
+- 🎓 Formando em Engenharia de Produção
+- 🐍 Python é minha linguagem favorita
+- 🌐 Apaixonado por desenvolvimento web
+- 💪 Sempre buscando aprender e evoluir
+- ⚙️ Fascinado pela otimização de processos
+
+## 💻 Tecnologias
+
+- **Python**
+- **JavaScript**
+- **HTML & CSS**
+- **Git**
+
+## 📚 Projetos
+
+Aqui você encontra meus projetos de desenvolvimento web e scripts em Python. Fique à vontade para explorar e deixar feedback!
+
+## 🤝 Vamos Conectar?
+
+- 📧 Email: theonunes.network@gmail.com
+- 💼 LinkedIn: [Seu Perfil](https://linkedin.com)
+
+---
+
+⭐ Obrigado por visitar! Sinta-se à vontade para explorar meus repositórios.
