@@ -1,140 +1,139 @@
 # Olá! Eu sou o Théo Alves Nunes 👋
 
 <p align="center">
-  <img src="github_contribution_animated.gif" alt="Animação de Contribuição GitHub" width="100%">
+  <img src="github_header.png" alt="Engineering + Programming Fusion Header" width="100%">
 </p>
 
-Sou estudante universitário na área de Engenharia/Ciências Exatas e atuo profissionalmente no setor administrativo em Goiás. Tenho forte interesse em otimização de processos, programação, organização de fluxos institucionais e inovação em tecnologia.
+Sou estudante universitário na área de Engenharia/Ciências Exatas e atuo profissionalmente no setor administrativo em Goiás. Tenho forte interesse em otimização de processos, programação, organização de dados e desenvolvimento de soluções inovadoras.
 
 ---
 
 ## 🚀 Sobre Mim
-- 🎓 Estudante de exatas com forte base analítica (Cálculo, Álgebra Linear e Mecânica Vetorial).
-- 🏛️ Atuo na área administrativa do setor público (SIC/Goiás), com foco na elaboração, revisão e otimização de ofícios, despachos e fluxos institucionais.
-- 📚 Atuo como monitor acadêmico, elaborando relatórios pedagógicos e auxiliando no progresso de turmas.
-- 💡 Atualmente estruturando um projeto empreendedor focado em serviços de manutenção multidisciplinar ("Marido de Aluguel").
+
+- 🎓 **Estudante de exatas** com forte base analítica (Cálculo, Álgebra Linear e Mecânica Vetorial)
+- 🏛️ **Setor Público** - Atuo na área administrativa do SIC/Goiás, com foco na elaboração, revisão e otimização de ofícios, despachos e fluxos institucionais
+- 📚 **Monitor Acadêmico** - Elaboração de relatórios pedagógicos e auxílio no progresso de turmas
+- 💡 **Empreendedor** - Estruturando projeto focado em serviços de manutenção multidisciplinar ("Marido de Aluguel")
 
 ## 💻 Habilidades e Ferramentas
-- **Linguagens e Lógica:** Python (focado em processamento de listas, automação e cálculo de dados).
-- **Análise e Gestão de Dados:** Excel Avançado (Tabelas Dinâmicas, extração e consolidação de grandes volumes de dados).
-- **Comunicação Institucional:** Redação oficial de alto padrão, revisão de concordância e objetividade.
-- **Tecnologia:** Uso de ferramentas de IA (Google AI Studio) para otimização de fluxos de trabalho.
+
+| Categoria | Descrição |
+|-----------|-----------|
+| **Linguagens & Lógica** | Python (processamento de listas, automação, cálculo de dados) |
+| **Análise de Dados** | Excel Avançado (Tabelas Dinâmicas, extração e consolidação de volumes) |
+| **Comunicação** | Redação oficial, revisão de concordância e objetividade |
+| **Tecnologia** | Ferramentas de IA (Google AI Studio) para otimização de workflows |
 
 ## 📈 Interesses
-- 📊 **Criptoeconomia:** Acompanhamento de tendências de mercado, projeções e simulações de investimento, com foco em Ethereum (ETH).
-- 🎮 **Gaming:** Jogador de PlayStation (Rainbow Six Siege).
-- 🛠️ **Empreendedorismo:** Coordenação de demandas comerciais e parcerias estratégicas.
+
+- 📊 **Criptoeconomia** - Análise de tendências, projeções e simulações de investimento em Ethereum (ETH)
+- 🎮 **Gaming** - Entusiasta de PlayStation (Rainbow Six Siege)
+- 🛠️ **Empreendedorismo** - Coordenação de demandas comerciais e parcerias estratégicas
 
 ---
 
-## 🖼️ Geração Criativa da Capa
+## 🖼️ Geração Criativa do Header
 
-Para criar a imagem do header acima, imaginei um script Python que funde elementos de Engenharia de Produção e Programação em uma paisagem tecnológica e orgânica. O script representa visualmente a fusão entre análise de dados, otimização de processos e automação através de componentes visuais como fábricas de otimização, robôs inteligentes e nuvens de simulação com IA.
+> O header visual acima foi **gerado programaticamente** usando Python! É uma representação simbólica da fusão entre Engenharia de Produção e Programação em uma paisagem tecnológica moderna.
 
-### 🐍 `header_generator.py`
+### 🐍 Script: `header_generator.py`
 
-```python
-import PIL.Image as Image
-import PIL.ImageDraw as ImageDraw
-import PIL.ImageFont as ImageFont
-import math
-import random
+Este script utiliza a biblioteca **Pillow** para criar visualizações customizadas que combinam:
 
-# Configurações da imagem
-W, H = 1920, 600
-COLORS = {
-    'bg': (10, 15, 30),
-    'primary': (0, 200, 255),
-    'secondary': (50, 255, 100),
-    'accent': (255, 150, 50),
-    'code': (150, 200, 255, 180),
-    'text': (240, 240, 240)
-}
+- **Fluxo de Dados** - Representação visual do processamento contínuo de informações
+- **Fábrica de Otimização** - Estrutura central com código de otimização de processos
+- **Robôs Inteligentes** - Autômatos que simbolizam automação e lógica computacional  
+- **Nuvens de IA** - Elementos representando simulação e inteligência artificial
+- **Paleta Futurista** - Azul ciano, verde limão e laranja em fundo escuro
 
-def generate_engineering_fusion_header(output_path="github_header.png"):
-    # 1. Cria a tela
-    img = Image.new('RGB', (W, H), color=COLORS['bg'])
-    draw = ImageDraw.Draw(img)
+#### 📥 Instalação & Uso
 
-    # 2. Gera a base de dados (o rio de dados)
-    for x in range(0, W, 10):
-        for y in range(H - 150, H, 5):
-            opacity = random.randint(30, 100)
-            draw.point((x, y), fill=(*COLORS['primary'], opacity))
+```bash
+# 1. Instale as dependências
+pip install Pillow
 
-    # 3. Desenha os "Edifícios de Processo" formados por código
-    # Fábrica de Otimização (Otimização de Processos)
-    draw.rectangle([W//4, H//2, 3*W//4, H-50], fill=(20, 30, 50), outline=COLORS['primary'])
-    
-    # Inserir código simulado dentro do edifício
-    code_lines = [
-        "def optimize_process(data):",
-        "  workflow = load_data(data)",
-        "  bottlenecks = identify(workflow)",
-        "  for task in bottlenecks:",
-        "    if task.is_critical:",
-        "      allocate_resources(task)",
-        "  return optimized_workflow"
-    ]
-    y_offset = H // 2 + 20
-    for line in code_lines:
-        draw.text((W // 4 + 20, y_offset), line, fill=COLORS['code'])
-        y_offset += 15
+# 2. Execute o gerador
+python header_generator.py
 
-    # 4. Desenha os Robôs (formados por loops e lógica)
-    for i in range(2):
-        bx, by = W//2 + i*200 - 100, H-150
-        draw.rectangle([bx, by, bx+80, by+100], fill=(30, 45, 75), outline=COLORS['secondary'])
-        # Braço robótico articulado
-        draw.line([bx+40, by+100, bx+120, by+180], fill=COLORS['secondary'], width=5)
-
-    # 5. Adiciona nuvens de IA e Simulação
-    for i in range(3):
-        cx, cy = random.randint(100, W-100), random.randint(100, 200)
-        draw.ellipse([cx, cy, cx+200, cy+100], fill=(40, 60, 100, 150))
-        draw.text((cx+20, cy+20), "SIMULATION & AI", fill=COLORS['text'])
-
-    # 6. Título principal
-    try:
-        font_title = ImageFont.truetype("arial_bold.ttf", 60)
-    except IOError:
-        font_title = ImageFont.load_default()
-        
-    title_text = "ENGINEERING + PROGRAMMING FUSION"
-    draw.text((W//2 - 400, 50), title_text, font=font_title, fill=COLORS['text'])
-
-    # Salva a imagem
-    img.save(output_path)
-    print(f"Header gerado em {output_path}")
-
-if __name__ == "__main__":
-    generate_engineering_fusion_header()
+# 3. Resultado: arquivo 'github_header.png' será criado
 ```
 
-### 📋 Como Usar
+#### 📖 Documentação do Código
 
-1. **Instale as dependências:**
-   ```bash
-   pip install Pillow
-   ```
+O script foi refatorado para **máxima legibilidade e manutenibilidade**:
 
-2. **Execute o script:**
-   ```bash
-   python header_generator.py
-   ```
+```python
+from PIL import Image, ImageDraw, ImageFont
 
-3. **Resultado:** O script gerará um arquivo `github_header.png` com visualização da fusão entre engenharia, programação e inteligência artificial.
+class EngineeringHeaderGenerator:
+    """Gerador profissional de headers com tema de engenharia."""
+    
+    def __init__(self, width=1920, height=600):
+        # Dimensões e paleta de cores configuráveis
+        self.width = width
+        self.height = height
+        self.colors = {...}
+    
+    def generate(self, output_path="github_header.png"):
+        # Método principal que orquestra toda a composição visual
+        img = Image.new('RGB', (self.width, self.height), ...)
+        draw = ImageDraw.Draw(img)
+        
+        # Métodos separados para cada elemento
+        self._draw_data_stream(draw)
+        self._draw_optimization_factory(draw)
+        self._draw_robots(draw)
+        self._draw_ai_clouds(draw)
+        self._draw_title(draw)
+        
+        img.save(output_path)
 
-### ✨ Elementos da Composição
+if __name__ == "__main__":
+    generator = EngineeringHeaderGenerator()
+    generator.generate()
+```
 
-- **Rio de Dados:** Base dinâmica representando o fluxo contínuo de informações
-- **Fábrica de Otimização:** Estrutura central exibindo código de otimização de processos
-- **Robôs Inteligentes:** Dois autômatos articulados simbolizando automação e lógica computacional
-- **Nuvens de IA:** Simulação e inteligência artificial flutuando sobre a paisagem
-- **Paleta de Cores:** Azul ciano, verde limão e laranja em um fundo escuro, representando tecnologia moderna
+#### ✨ Destaques Técnicos
+
+| Aspecto | Descrição |
+|--------|-----------|
+| **Padrão** | Programação Orientada a Objetos (OOP) |
+| **Modularidade** | Cada elemento visual em método separado |
+| **Documentação** | Docstrings completas em todas as funções |
+| **Tratamento de Erros** | Fallback para fontes padrão do sistema |
+| **Código Limpo** | Segue padrões PEP 8 |
+| **Escalabilidade** | Fácil adicionar novos elementos ou customizações |
+
+#### 🎨 Elemento-por-Elemento
+
+1. **Rio de Dados** (`_draw_data_stream`)
+   - Simula fluxo de informações na base da imagem
+   - Pontos aleatórios com variação de opacidade
+
+2. **Fábrica de Otimização** (`_draw_optimization_factory`)
+   - Estrutura retangular central
+   - Exibe código Python funcional de otimização
+
+3. **Robôs** (`_draw_robots`)
+   - Dois autômatos articulados
+   - Representa automação e processamento paralelo
+
+4. **Nuvens de IA** (`_draw_ai_clouds`)
+   - Elementos flutuantes com labels
+   - Símbolos: ⚡ Simulation, 🤖 AI, ⚙️ Automation
+
+5. **Título** (`_draw_title`)
+   - Texto destacado no topo da composição
+   - Fonte customizável com fallback
 
 ---
 
 ## 📞 Conecte-se Comigo
 
-Estou sempre aberto a novas oportunidades, parcerias e discussões sobre otimização, programação e inovação. Vamos conversar! 🚀
+Estou sempre aberto a novas oportunidades, parcerias e discussões sobre:
+- ⚙️ Otimização de processos
+- 💻 Programação e automação
+- 🚀 Inovação e empreendedorismo
+
+**Vamos conversar!** 🤝
+
