@@ -4,7 +4,7 @@
   <img src="github_contribution_animated.gif" alt="Animação de Contribuição GitHub" width="100%">
 </p>
 
-Sou estudante universitário na área de Engenharia/Ciências Exatas e atuo profissionalmente no setor administrativo em Goiás. Tenho forte interesse em otimização de processos, programação, organização de dados e estruturação de novos negócios.
+Sou estudante universitário na área de Engenharia/Ciências Exatas e atuo profissionalmente no setor administrativo em Goiás. Tenho forte interesse em otimização de processos, programação, organização de fluxos institucionais e inovação em tecnologia.
 
 ---
 
@@ -29,7 +29,7 @@ Sou estudante universitário na área de Engenharia/Ciências Exatas e atuo prof
 
 ## 🖼️ Geração Criativa da Capa
 
-Para criar a imagem do header acima, imaginei um script Python que funde elementos de Engenharia de Produção e Programação em uma paisagem tecnológica e orgânica. O script abaixo não gera a imagem *exata* (que foi criada por uma IA com base nessa lógica), mas demonstra como eu construiria essa visualização programaticamente usando Python.
+Para criar a imagem do header acima, imaginei um script Python que funde elementos de Engenharia de Produção e Programação em uma paisagem tecnológica e orgânica. O script representa visualmente a fusão entre análise de dados, otimização de processos e automação através de componentes visuais como fábricas de otimização, robôs inteligentes e nuvens de simulação com IA.
 
 ### 🐍 `header_generator.py`
 
@@ -109,3 +109,32 @@ def generate_engineering_fusion_header(output_path="github_header.png"):
 
 if __name__ == "__main__":
     generate_engineering_fusion_header()
+```
+
+### 📋 Como Usar
+
+1. **Instale as dependências:**
+   ```bash
+   pip install Pillow
+   ```
+
+2. **Execute o script:**
+   ```bash
+   python header_generator.py
+   ```
+
+3. **Resultado:** O script gerará um arquivo `github_header.png` com visualização da fusão entre engenharia, programação e inteligência artificial.
+
+### ✨ Elementos da Composição
+
+- **Rio de Dados:** Base dinâmica representando o fluxo contínuo de informações
+- **Fábrica de Otimização:** Estrutura central exibindo código de otimização de processos
+- **Robôs Inteligentes:** Dois autômatos articulados simbolizando automação e lógica computacional
+- **Nuvens de IA:** Simulação e inteligência artificial flutuando sobre a paisagem
+- **Paleta de Cores:** Azul ciano, verde limão e laranja em um fundo escuro, representando tecnologia moderna
+
+---
+
+## 📞 Conecte-se Comigo
+
+Estou sempre aberto a novas oportunidades, parcerias e discussões sobre otimização, programação e inovação. Vamos conversar! 🚀
